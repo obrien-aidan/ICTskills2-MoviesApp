@@ -6,12 +6,12 @@ import FilterControls from "../filterControls";
 const MovieListPageTemplate = ({ movies, title, action }) => {
   const [nameFilter, setNameFilter] = useState("");
   const [genreFilter, setGenreFilter] = useState("0");
-  const [orderBy, setOrderByFilter] = useState("releaseDate");
+  const [orderBy, setOrderByFilter] = useState("0");
   const [releaseDate, setReleaseDate] = useState("0");
   const [ratings, setRatings] = useState("0");
   const [language, setMovieLanguage] = useState("0");
 
-  const filterMoviesByDecade = (movie) => {
+    const filterMoviesByDecade = (movie) => {
     const decadeRange = releaseDate.split("-");
     return (
       movie.release_date.split("-")[0] <= decadeRange[1] &&
@@ -29,41 +29,39 @@ const MovieListPageTemplate = ({ movies, title, action }) => {
 
   const genre = Number(genreFilter);
   let displayedMovies = movies
-    .filter((m) => {
-      return m.title.toLowerCase().search(nameFilter.toLowerCase()) !== -1;
+    .filter((movies) => {
+      return movies.title.toLowerCase().search(nameFilter.toLowerCase()) !== -1;
     })
-    .filter((m) => {
-      return genre > 0 ? m.genre_ids.includes(Number(genreFilter)) : true;
+    .filter((movies) => {
+      return genre > 0 ? movies.genre_ids.includes(Number(genreFilter)) : true;
     })
-    .filter((m) => {
-      return releaseDate !== "0" ? filterMoviesByDecade(m) : true;
+    .filter((movies) => {
+      return releaseDate !== "0" ? filterMoviesByDecade(movies) : true;
     })
-    .filter((m) => {
-      return ratings !== "0" ? filterMoviesByRatings(m) : true;
+    .filter((movies) => {
+      return ratings !== "0" ? filterMoviesByRatings(movies) : true;
     })
-    .filter((m) => {
-      return language !== "0" ? filterMoviesByLanguage(m) : true;
+    .filter((movies) => {
+      return language !== "0" ? filterMoviesByLanguage(movies) : true;
     });
 
-  //soting
   displayedMovies.sort((a, b) => {
     switch (orderBy) {
       case "releaseDate":
-        const dateA = new Date(a.release_date),
-          dateB = new Date(b.release_date);
+        const dateA = new Date(a.release_date);
+        const dateB = new Date(b.release_date);
         return dateB - dateA;
       case "popularity":
         return b.vote_average - a.vote_average;
       case "name":
-        const titleA = a.title.toLowerCase(),
-          titleB = b.title.toLowerCase();
+        const titleA = a.title.toLowerCase();
+        const titleB = b.title.toLowerCase();
         if (titleA < titleB) return -1;
         if (titleA > titleB) return 1;
-        return 0;
-      default:
-        return 0;
+        /*return a.title.toLowerCase() - b.title.toLowerCase(); */
     }
   });
+
   const handleChange = (type, value) => {
     switch (type) {
       case "name":
