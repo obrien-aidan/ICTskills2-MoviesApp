@@ -118,7 +118,7 @@ Query the database by movie title : https://api.themoviedb.org/3/search/movie?ap
 ## App Design.
 
 ### Component catalogue.
-![stories](https://github.com/obrien-aidan/ICTskills2-MoviesApp/blob/master/storybook.PNG)
+![stories](https://github.com/obrien-aidan/ICTskills2-MoviesApp/blob/master/stories.PNG)
 
 ### UI Design.
 
@@ -139,7 +139,7 @@ Minor design change - headerMovieList design change:<br/>
 ![image4](https://github.com/obrien-aidan/ICTskills2-MoviesApp/blob/master/image4.PNG)
 
 Minor design change - new favicon:<br/>
-*I played around with designing my own favicon.ico to replace the default one*
+*I played around with designing my own favicon.ico to replace the default one*<br/>
 ![image5](https://github.com/obrien-aidan/ICTskills2-MoviesApp/blob/master/image5.PNG)
 ![image6](https://github.com/obrien-aidan/ICTskills2-MoviesApp/blob/master/image6.PNG)
 
