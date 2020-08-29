@@ -27,6 +27,7 @@ I aimed to meet to good grade (40-60%) objectives and tried out some higher band
 
 ## API Data Model.
 Get upcoming movies : https://api.themoviedb.org/3/movie/upcoming?api_key={API-KEY}&language=en-US&include_adult=false&page=1&region=US
+
 *Returned JSON example:*
 ```
 {
@@ -68,8 +69,10 @@ Get upcoming movies : https://api.themoviedb.org/3/movie/upcoming?api_key={API-K
 }
 ```
 
-Query the database by movie title : https://api.themoviedb.org/3/search/movie?api_key={API-KEY}&language=en-US&query='{QUERY}'&include_adult=false&page=1&region=US`
+Query the database by movie title : https://api.themoviedb.org/3/search/movie?api_key={API-KEY}&language=en-US&query='{QUERY}'&include_adult=false&page=1&region=US
+
 *Returned JSON example: HARRY POTTER*
+```
 {
     popularity: 78.841,
     vote_count: 17910,
@@ -109,6 +112,7 @@ Query the database by movie title : https://api.themoviedb.org/3/search/movie?ap
     overview: "Cars fly, trees fight back, and a mysterious house-elf comes to warn Harry Potter at the start of his second year at Hogwarts. Adventure and danger await when bloody writing on a wall announces: The Chamber Of Secrets Has Been Opened. To save Hogwarts will require all of Harry, Ron and Hermione’s magical abilities and courage.",
     release_date: "2002-11-15"
 },
+```
 
 ## App Design.
 
