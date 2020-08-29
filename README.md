@@ -2,13 +2,13 @@
 ### ICTskills2-MoviesApp
 
 
-Name: Aidan O'Brien
-Student ID: 07042311
-Depolyed @:
+Name: Aidan O'Brien<br/>
+Student ID: 07042311<br/>
+Depolyed @:<br/>
 
 ## Overview.
-Expansion of the Movies Fan app.
-I aimed to meet to good grade (40-60%) objectives and tried out some higher band objectives where time allowed.
+Expansion of the Movies Fan app.<br/>
+I aimed to meet to good grade (40-60%) objectives and tried out some higher band objectives where time allowed.<br/>
 
  + Filter movies by release date
  + Filter movies by rating
@@ -27,7 +27,7 @@ I aimed to meet to good grade (40-60%) objectives and tried out some higher band
 + to run storybook : npm run storybook
 
 ## API Data Model.
-Get upcoming movies : https://api.themoviedb.org/3/movie/upcoming?api_key={API-KEY}&language=en-US&include_adult=false&page=1&region=US
+Get upcoming movies : https://api.themoviedb.org/3/movie/upcoming?api_key={API-KEY}&language=en-US&include_adult=false&page=1&region=US<br/>
 
 *Returned JSON example:*
 ```
@@ -70,7 +70,7 @@ Get upcoming movies : https://api.themoviedb.org/3/movie/upcoming?api_key={API-K
 }
 ```
 
-Query the database by movie title : https://api.themoviedb.org/3/search/movie?api_key={API-KEY}&language=en-US&query='{QUERY}'&include_adult=false&page=1&region=US
+Query the database by movie title : https://api.themoviedb.org/3/search/movie?api_key={API-KEY}&language=en-US&query='{QUERY}'&include_adult=false&page=1&region=US<br/>
 
 *Returned JSON example: HARRY POTTER*
 ```
@@ -122,23 +122,23 @@ Query the database by movie title : https://api.themoviedb.org/3/search/movie?ap
 
 ### UI Design.
 
-Filters:
-*filters the mounted movies*
+Filters:<br/>
+*filters the mounted movies*<br/>
 ![image1](https://github.com/obrien-aidan/ICTskills2-MoviesApp/blob/master/image1.PNG)
 
-Upcoming Moves:
-*returns a list of uncoming movies*
+Upcoming Moves:<br/>
+*returns a list of uncoming movies*<br/>
 ![image2](https://github.com/obrien-aidan/ICTskills2-MoviesApp/blob/master/image2.PNG)
 
-Search:
-*allows the user to search the entire TMDB database by movie title*
+Search:<br/>
+*allows the user to search the entire TMDB database by movie title*<br/>
 ![image3](https://github.com/obrien-aidan/ICTskills2-MoviesApp/blob/master/image3.PNG)
 
-Minor design change - headerMovieList design change:
-*This component was altered to (what I feel) is a more modern design*
+Minor design change - headerMovieList design change:<br/>
+*This component was altered to (what I feel) is a more modern design*<br/>
 ![image4](https://github.com/obrien-aidan/ICTskills2-MoviesApp/blob/master/image4.PNG)
 
-Minor design change - new favicon:
+Minor design change - new favicon:<br/>
 *I played around with designing my own favicon.ico to replace the default one*
 ![image5](https://github.com/obrien-aidan/ICTskills2-MoviesApp/blob/master/image5.PNG)
 ![image6](https://github.com/obrien-aidan/ICTskills2-MoviesApp/blob/master/image6.PNG)
