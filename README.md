@@ -28,6 +28,7 @@ I aimed to meet to good grade (40-60%) objectives and tried out some higher band
 ## API Data Model.
 Get upcoming movies : https://api.themoviedb.org/3/movie/upcoming?api_key={API-KEY}&language=en-US&include_adult=false&page=1&region=US
 *Returned JSON example:*
+```
 {
     popularity: 26.386,
     vote_count: 0,
@@ -65,7 +66,7 @@ Get upcoming movies : https://api.themoviedb.org/3/movie/upcoming?api_key={API-K
     overview: "Former Chief Official White House Photographer Pete Souza's journey as a person with top secret clearance and total access to the President.",
     release_date: "2020-09-09"
 }
-
+```
 
 Query the database by movie title : https://api.themoviedb.org/3/search/movie?api_key={API-KEY}&language=en-US&query='{QUERY}'&include_adult=false&page=1&region=US`
 *Returned JSON example: HARRY POTTER*
