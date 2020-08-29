@@ -158,7 +158,7 @@ All routes are public:
 + stateless component - src/components/upcomingMovies/index.js
 
 ## Independent learning.
-Cloud deployment on VERCEL:
+Cloud deployment on VERCEL (formally Zeit Now):
 + reference = https://vercel.com/guides/deploying-react-with-vercel-cra
 
 ##
