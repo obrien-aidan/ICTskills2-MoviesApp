@@ -140,9 +140,10 @@ Minor design change - headerMovieList design change:<br/>
 
 Minor design change - new favicon:<br/>
 *I played around with designing my own favicon.ico to replace the default one*<br/>
-![image5](https://github.com/obrien-aidan/ICTskills2-MoviesApp/blob/master/image5.PNG)
-<br/>
 ![image6](https://github.com/obrien-aidan/ICTskills2-MoviesApp/blob/master/image6.PNG)
+<br/>
+![image5](https://github.com/obrien-aidan/ICTskills2-MoviesApp/blob/master/image5.PNG)
+
 
 ### Routing.
 All routes are public:
@@ -160,9 +161,9 @@ All routes are public:
 Cloud deployment on VERCEL:
 + reference = https://vercel.com/guides/deploying-react-with-vercel-cra
 
-####*I went down a rat hole when trying to implement filtering and sorting - I had initially tried this using TMDBs filters and sorting calls*
+**_I went down a rat hole when trying to implement filtering and sorting - I had initially tried this using TMDBs filters and sorting calls*
 *but these were calling a new set of movies every time (as opposed to filtering/sorting the already mounted movies)*
-*so I decided to change my approach and create JS functions to carrying out sorting and filtering which was meant I spent far less time working in React(and storybook) than I should have and more time working in/learning standard javascript*####
+*so I decided to change my approach and create JS functions to carrying out sorting and filtering which was meant I spent far less time working in React(and storybook) than I should have and more time working in/learning standard javascript_**  
 
 I had to split the release date filter decade range into 2 individual values:
 + reference = https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
