@@ -117,7 +117,7 @@ Query the database by movie title : https://api.themoviedb.org/3/search/movie?ap
 ## App Design.
 
 ### Component catalogue.
-![][stories]
+![stories](https://github.com/obrien-aidan/ICTskills2-MoviesApp/blob/master/storybook.PNG)
 
 ### UI Design.
 
@@ -127,20 +127,20 @@ Filters:
 
 Upcoming Moves:
 *returns a list of uncoming movies*
-![][image2]
+![image2](https://github.com/obrien-aidan/ICTskills2-MoviesApp/blob/master/image2.PNG)
 
 Search:
 *allows the user to search the entire TMDB database by movie title*
-![][image3]
+![image3](https://github.com/obrien-aidan/ICTskills2-MoviesApp/blob/master/image3.PNG)
 
 Minor design change - headerMovieList design change:
 *This component was altered to (what I feel) is a more modern design*
-![][image4]
+![image4](https://github.com/obrien-aidan/ICTskills2-MoviesApp/blob/master/image4.PNG)
 
 Minor design change - new favicon:
 *I played around with designing my own favicon.ico to replace the default one*
-![][image5]
-![][image6]
+![image5](https://github.com/obrien-aidan/ICTskills2-MoviesApp/blob/master/image5.PNG)
+![image6](https://github.com/obrien-aidan/ICTskills2-MoviesApp/blob/master/image6.PNG)
 
 ### Routing.
 All routes are public:
@@ -170,12 +170,3 @@ Filtering logic:
 
 Sorting logic:
 + reference = https://www.w3schools.com/js/js_array_sort.asp
-
-
-
-[image1]: ./image1.png
-[image2]: ./image2.png
-[image3]: ./image3.png
-[image4]: ./image4.png
-[image5]: ./image5.png
-[stories]: ./storybook.png
