@@ -10,7 +10,6 @@ const Header = ({ title, numMovies }) => {
         {" "}
         {`${title}  `} <span class="badge badge-light"> {numMovies} </span>{" "}
       </button>{" "}
-      <br> </br>{" "}
     </div>
   );
 };
