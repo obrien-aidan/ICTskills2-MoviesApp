@@ -161,6 +161,7 @@ All routes are public:
 Cloud deployment on VERCEL:
 + reference = https://vercel.com/guides/deploying-react-with-vercel-cra
 
+##
 **I went down a rat hole when trying to implement filtering and sorting - I had initially tried this using TMDBs filters and sorting calls*
 *but these were calling a new set of movies every time (as opposed to filtering/sorting the already mounted movies)*
 *so I decided to change my approach and create JS functions to carrying out sorting and filtering which was meant I spent far less time working in React(and storybook) than I should have and more time working in/learning standard javascript**  
