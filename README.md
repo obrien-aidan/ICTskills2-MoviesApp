@@ -123,7 +123,7 @@ Query the database by movie title : https://api.themoviedb.org/3/search/movie?ap
 
 Filters:
 *filters the mounted movies*
-![][image1]
+![image1][image1.png]
 
 Upcoming Moves:
 *returns a list of uncoming movies*
